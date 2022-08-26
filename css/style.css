@@ -7,7 +7,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin-top: 100px;
 }
 
 .btn {
@@ -20,4 +20,60 @@ body{
     justify-content: center;
     align-items: center;
     margin-right: 100px;
+}
+.koloda{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.all-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.all-items p{
+    text-align: center;
+    margin: 0px;
+    color: violet;
+}
+.item{
+    margin-top: 10px;
+}
+.one,.two,.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.green-item{
+    width: 25px;
+    height: 25px;
+    background-color: green;
+}
+.red-item{
+    width: 25px;
+    height: 25px;
+    background-color: red;
+}
+.blue-item{
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+}
+.green-item p{
+    color: black;
+}
+.blue-item p{
+    color: black;
+}
+.red-item p{
+    color: black;
+}
+.rubashka{
+    width: 150px;
+    height: 200px;
+    background: url("../assets/mythicCardBackground.png") no-repeat;
+    margin-top: 100px;
 }
