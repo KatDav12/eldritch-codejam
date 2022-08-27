@@ -22,11 +22,17 @@ body{
     align-items: center;
     margin-right: 100px;
 }
+.koloda-none{
+    display: none;
+}
 .koloda{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+}
+.all-items-none{
+    display: none;
 }
 .all-items {
     display: flex;
@@ -53,7 +59,7 @@ body{
     height: 25px;
     background-color: green;
 }
-.red-item{
+.brown-item{
     width: 25px;
     height: 25px;
     background-color: red;
@@ -69,19 +75,39 @@ body{
 .blue-item p{
     color: black;
 }
-.red-item p{
+.brown-item p{
     color: black;
 }
-.rubashka{
+.rubashka-none {
+    display: none;
+    width: 130px;
+    height: 190px;
+}
+.rubashka {
+    display: flex;
+    justify-content: center;
     width: 130px;
     height: 190px;
     background: url("../assets/mythicCardBackground.png") no-repeat;
     margin-top: 100px;
     cursor: pointer;
 }
-.karta{
+.img{
     width: 130px;
     height: 190px;
-    background-image: url("../assets/MythicCards/blue/blue1.png");
+    /* background: url("../assets/MythicCards/blue/blue1.png") no-repeat center top; */
+}
+.karta{
+    display: none;
+    /* width: 130px;
+    height: 190px;
+    background: url("../assets/MythicCards/blue/blue1.png") no-repeat;
+    margin-top: 50px; */
+}
+.karta-active{
+    display: flex;
+    width: 130px;
+    height: 190px;
+    /* background: url("../assets/MythicCards/blue/blue1.png") no-repeat center top; */
     margin-top: 50px;
 }
