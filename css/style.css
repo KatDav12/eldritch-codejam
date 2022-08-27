@@ -14,6 +14,7 @@ body{
     width: 200px;
     height: 50px;
     background-color: aquamarine;
+    cursor: pointer;
 }
 .card {
     display: flex;
@@ -72,8 +73,15 @@ body{
     color: black;
 }
 .rubashka{
-    width: 150px;
-    height: 200px;
+    width: 130px;
+    height: 190px;
     background: url("../assets/mythicCardBackground.png") no-repeat;
     margin-top: 100px;
+    cursor: pointer;
+}
+.karta{
+    width: 130px;
+    height: 190px;
+    background-image: url("../assets/MythicCards/blue/blue1.png");
+    margin-top: 50px;
 }
