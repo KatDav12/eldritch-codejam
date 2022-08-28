@@ -1,0 +1,113 @@
+body{
+    min-width: 480px;
+    min-height: 100vh;
+    background: url("../assets/home.png") no-repeat;
+}
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+.koloda-none{
+    display: none;
+}
+.koloda{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.all-items-none{
+    display: none;
+}
+.all-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.all-items p{
+    text-align: center;
+    margin: 0px;
+    color: violet;
+}
+.item{
+    margin-top: 10px;
+}
+.one,.two,.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.green-item{
+    width: 25px;
+    height: 25px;
+    background-color: green;
+}
+.brown-item{
+    width: 25px;
+    height: 25px;
+    background-color: red;
+}
+.blue-item{
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+}
+.green-item p{
+    color: black;
+}
+.blue-item p{
+    color: black;
+}
+.brown-item p{
+    color: black;
+}
+.rubashka-none {
+    display: none;
+    width: 130px;
+    height: 190px;
+}
+.rubashka {
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    height: 190px;
+    background: url("../assets/mythicCardBackground.png") no-repeat;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.img{
+    width: 130px;
+    height: 190px;
+    /* background: url("../assets/MythicCards/blue/blue1.png") no-repeat center top; */
+}
+.karta{
+    display: none;
+    /* width: 130px;
+    height: 190px;
+    background: url("../assets/MythicCards/blue/blue1.png") no-repeat;
+    margin-top: 50px; */
+}
+.karta-active{
+    display: flex;
+    width: 130px;
+    height: 190px;
+    /* background: url("../assets/MythicCards/blue/blue1.png") no-repeat center top; */
+    margin-top: 50px;
+}
